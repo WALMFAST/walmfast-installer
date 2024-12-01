@@ -1,0 +1,5 @@
+walmfast_installer = 'WALMFAST Installer'
+installing_depen = 'Installing dependencies'
+installing = 'Installing'
+branch = 'Which branch will you choose (dev/main)?'
+install_done = 'Install is done'

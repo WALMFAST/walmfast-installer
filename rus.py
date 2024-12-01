@@ -1,0 +1,5 @@
+walmfast_installer = 'Установка WALMFAST'
+installing_depen = 'Установка зависимостей'
+installing = 'Установка'
+branch = 'Какую ветку вы выберите (dev/main)?'
+install_done = 'Установка завершена'
