@@ -38,10 +38,10 @@ def installer():
         
         if os.system('apt list') == 0:
             print('debian')
-            os.system('pkexec apt install -y python3-pip python3-tk python3-pil.imagetk zenity')
+            os.system('pkexec apt install -y python3-pip python3-tk python3-pil.imagetk zenity kdialog')
         elif os.system('pacman -Q') == 0:
             print('arch')
-            os.system('pkexec pacman -S python-pip tcl tk zenity --noconfirm')
+            os.system('pkexec pacman -S python-pip tcl tk zenity kdialog --noconfirm')
         else:
             pass
 
